@@ -1,0 +1,13 @@
+.slider {
+    position: relative;
+}
+.slider .layer{
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    background-color: aqua;
+}
+.slider .layer  img{
+    width: 8rem;
+    height: 3rem;
+}

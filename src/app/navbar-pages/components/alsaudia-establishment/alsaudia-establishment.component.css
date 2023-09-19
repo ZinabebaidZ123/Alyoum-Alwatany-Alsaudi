@@ -1,0 +1,49 @@
+.establishment{
+    position: relative;
+}
+.establishment .layer{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -1;
+}
+
+.establishment .layer img{
+    width: 8rem;
+}
+.establishment h2{
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem ;
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+}
+.establishment p{
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.establishment .establishment-img {
+    position: relative;
+    z-index: 88;
+}
+.establishment .layer2{
+    position: absolute;
+    left: -5rem;
+    top: 20%;
+
+
+}
+.establishment .layer2 img{
+    width: 8rem;
+
+}
+
+/* .establishment .layer1 {
+    position: absolute;
+    right: -30%;
+    bottom: 5rem;
+}
+.establishment .layer2{
+    position: absolute;
+} */

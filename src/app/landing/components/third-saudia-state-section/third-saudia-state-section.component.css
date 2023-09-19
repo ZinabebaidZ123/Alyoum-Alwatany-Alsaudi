@@ -1,0 +1,25 @@
+.third-saudia h2{
+    color: var(--primary-color);
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding-right: 0.5rem;
+}
+.third-saudia p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 1.7;
+}
+.third-saudia-img{
+    position: relative;
+}
+.third-saudia-img .layer{
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    
+    top: 0;
+}
+.third-saudia-img .layer img{
+    height: 80%;
+}

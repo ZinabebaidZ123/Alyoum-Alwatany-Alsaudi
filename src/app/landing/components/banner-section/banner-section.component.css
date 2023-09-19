@@ -1,0 +1,75 @@
+/* start banner section style ---------------- */
+.banner{
+    background-image: url('../../../../assets/images/banner-img.png');
+    height: 103vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 55;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .fa-play:before {
+    content: "\f04b"; /* Font Awesome play icon */
+  }
+  
+  .fa-pause:before {
+    content: "\f04c"; /* Font Awesome pause icon */
+  }
+@media(max-width:992px){
+    .banner{
+        background-size: 100% 100%;
+        width: 100%;
+        background-position:  right ;
+        height: 80vh;
+    }
+}
+.banner .slide{
+    position: relative;
+    z-index: 44;
+    height: 100vh;
+    padding-top: 3rem;
+
+}
+
+.banner .slide h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.banner .slide h1 span{
+    color: var(--primary-color);
+}
+.banner .container{
+    width: 100% !important;
+}
+.banner .slide .row{
+    justify-content:space-between;
+}
+.banner .slide .content{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media(max-width:992px){
+    .banner{
+        height: 70vh;
+        background-color: blueviolet;
+    }
+   
+    .banner .slide .row{
+        /* background-color: aqua; */
+        padding: 2rem 1rem;
+        height: 100%;
+    }
+}

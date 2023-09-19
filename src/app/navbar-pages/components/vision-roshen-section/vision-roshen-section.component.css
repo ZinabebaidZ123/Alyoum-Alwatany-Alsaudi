@@ -1,0 +1,14 @@
+  h2{
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem ;
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+    display: inline-block;
+    
+}
+ p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}

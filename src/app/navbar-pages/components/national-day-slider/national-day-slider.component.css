@@ -1,0 +1,11 @@
+.slider {
+    position: relative;
+}
+.slider .layer {
+    width: 8rem;
+    position: absolute;
+    top: -2rem;
+}
+.slider .layer img{
+    width:100%;
+}

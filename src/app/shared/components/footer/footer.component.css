@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Inter&family=Readex+Pro&family=Tajawal:wght@700&display=swap');
+
+footer .layer{
+    width: 10rem;
+    margin-top: 3rem;
+}
+footer .layer img{
+    width: 100%;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer .footer-content p{
+    color: var(--text-color);
+    font-size: 4.125rem;
+    line-height: 1.7;
+    font-family: 'Gulzar', serif;
+}
+footer h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--text-color);
+
+}
+footer ul{
+    list-style: none;
+    width: 50%;
+}
+footer ul li{
+    font-family: 'Gulzar', serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    color: var(--text-color);
+}
+.footer-img{
+    position: relative;
+}
+footer img{
+    width: 100%;
+}
+footer .bg-img{
+   position: relative;
+   top: 2rem;
+   z-index: -1;
+}
+@media(max-width:992px){
+    footer ul{
+        list-style: none;
+        width: 100%;
+        /* justify-content: center !important; */
+      
+    }
+    footer ul li{
+   
+        font-size: 1.25rem;
+       
+    }
+}

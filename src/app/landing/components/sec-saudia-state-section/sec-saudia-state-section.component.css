@@ -1,0 +1,21 @@
+/* start sec saudia style --------- */
+.sec-saudia{
+ 
+    position: relative;
+}
+.sec-saudia .all-content{
+    background-color: var(--alt-color);
+}
+
+.sec-saudia h2{
+    color: #fff;
+    border-right: 0.5rem solid #fff;
+    border-radius: 0.5rem ;
+    padding-right: 0.5rem;
+}
+.sec-saudia p{
+    color: #B0E4DD;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7;
+}

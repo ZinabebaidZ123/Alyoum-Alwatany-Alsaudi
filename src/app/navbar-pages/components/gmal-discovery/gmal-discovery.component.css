@@ -1,0 +1,23 @@
+.discovery {
+    background-color: var(--primary-color);
+    padding-bottom: 2rem;
+}
+
+.discovery h2{
+    border-right: 0.5rem solid #fff ;
+    border-radius: 0.5rem ;
+    color: #fff;
+    padding-right: 0.5rem;
+    
+}
+ p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #E6F6F4;
+    
+}
+.discovery .col-lg-5 .vision-logo{
+    width: 15rem;
+    height: 15rem;
+}

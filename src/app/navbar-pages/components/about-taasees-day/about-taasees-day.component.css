@@ -1,0 +1,23 @@
+.about-taasees-day h2{
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem ;
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+    display: inline-block;
+    
+}
+.about-taasees-day p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin: 3rem 0;
+}
+.about-taasees-day img{
+    width: 6rem;
+}
+@media(max-width:992px){
+    .title{
+        width: 90% !important;
+    }
+}

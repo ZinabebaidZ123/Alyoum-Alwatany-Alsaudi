@@ -1,0 +1,22 @@
+/* start first-saudia section ------------------------------ */
+.first-saudia img{
+    width: 6rem;
+}
+.first-saudia .first-saudia-content h2{
+    color: var(--primary-color);
+    padding-right: 0.5rem;
+    border-right: 0.5rem solid var(--primary-color);
+    border-radius: 0.5rem ;
+}
+
+.first-saudia .first-saudia-content{
+    padding-left: 1rem;
+}
+.first-saudia .first-saudia-content p{
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  text-align: justify;
+  color: var(--text-color);
+}
+
